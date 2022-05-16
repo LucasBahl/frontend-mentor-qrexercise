@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d5e1ef;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 7rem;
+    flex-direction: column;
+}
+
+.card {
+    padding: 1rem;
+    max-width: 21rem;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.card-inside {
+    text-align: center;
+}
+
+.card-inside h1 {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-inside p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.card-qr img{
+    border-radius: 5%;
+    width: 20rem;
+}
